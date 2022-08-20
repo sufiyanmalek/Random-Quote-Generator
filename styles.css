@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.quoteTemplate {
+    background-color: rgba(34, 34, 64, 0.97);
+    color: white;
+    border-radius: 25%;
+    padding: 5% 15%;
+    text-align: center;
+    margin: 10% 20%;
+}
+p{
+    font-family: 'Nova Round', cursive;
+    font-size: 2rem;
+}
+.heading {
+    font-family: 'Lilita One', cursive;
+}
+@media (max-width: 1400px) {
+    .quoteTemplate {
+        padding: 5% 7%;
+    }
+}
+@media (max-width: 992px) {
+    p {
+        font-size: 1.2rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+
+}
+@media (max-width: 768px) {
+    .quoteTemplate{
+        width: 368px;
+        margin: 5% auto;
+      
+    }
+}
+
+/* font-family: 'Lilita One', cursive;
+font-family: 'Nova Round', cursive; */
